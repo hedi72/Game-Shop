@@ -107,6 +107,17 @@ function create() {
 
     // Bouton d'achat
     const buyButton = this.add.image(80, -15, 'button2').setScale(0.5).setInteractive();
+    buyButton.on('pointerover', () => {
+      buyButton.setScale(0.55); // Augmenter la taille
+      buyButton.setTint(0xF0C300); // Appliquer une couleur jaune
+      this.input.setDefaultCursor('pointer'); // Changer le curseur
+    });
+
+    buyButton.on('pointerout', () => {
+      buyButton.setScale(0.5); // Rétablir la taille d'origine
+      buyButton.clearTint(); // Supprimer la couleur
+      this.input.setDefaultCursor('default'); // Rétablir le curseur par défaut
+    });
     buyButton.on('pointerdown', () => {
       alert(`Item ${item.name} is purchased!`);
     });
