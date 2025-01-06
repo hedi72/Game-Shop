@@ -1,5 +1,5 @@
 # Scrollable In-Game Shop Widget
-![Scrollable In-Game Shop Widget](asset/game.png)
+![Scrollable In-Game Shop Widget](assets/game.png)
 
 
 
