@@ -1,4 +1,6 @@
 # Scrollable In-Game Shop Widget
+![Uploading image.png…]()
+
 
 ## Description
 This is a simple scrollable in-game shop widget created using Phaser.js. It displays a list of items with images, names, and a "Buy" button. Clicking the "Buy" button triggers an alert to confirm the purchase of the item.
